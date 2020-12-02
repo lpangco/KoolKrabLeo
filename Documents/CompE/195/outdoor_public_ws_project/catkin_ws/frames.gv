@@ -1,0 +1,13 @@
+digraph G {
+"base_link" -> "front_cam_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1866.129 sec old)\nBuffer length: 0.000 sec\n"];
+"base_stabilized" -> "base_link"[label="Broadcaster: /ground_truth_to_tf\nAverage rate: 100.282 Hz\nMost recent transform: 1866.111 ( 0.018 sec old)\nBuffer length: 3.550 sec\n"];
+"front_cam_link" -> "front_cam_optical_frame"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1866.129 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "laser0_frame"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1866.129 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "sonar_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1866.129 sec old)\nBuffer length: 0.000 sec\n"];
+"world" -> "base_footprint"[label="Broadcaster: /ground_truth_to_tf\nAverage rate: 100.282 Hz\nMost recent transform: 1866.111 ( 0.018 sec old)\nBuffer length: 3.550 sec\n"];
+"base_footprint" -> "base_stabilized"[label="Broadcaster: /ground_truth_to_tf\nAverage rate: 100.282 Hz\nMost recent transform: 1866.111 ( 0.018 sec old)\nBuffer length: 3.550 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1866.129"[ shape=plaintext ] ;
+ }->"world";
+}

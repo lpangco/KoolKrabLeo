@@ -1,0 +1,8 @@
+prefix=/home/user/hector_quadrotor_tutorials/devel
+
+Name: hector_quadrotor_controller_gazebo
+Description: Description of hector_quadrotor_controller_gazebo
+Version: 0.3.5
+Cflags: -I/home/user/hector_quadrotor_tutorials/src/hector_quadrotor/hector_quadrotor_controller_gazebo/include
+Libs: -L/home/user/hector_quadrotor_tutorials/devel/lib -lhector_quadrotor_controller_gazebo
+Requires: gazebo_ros_control hector_quadrotor_interface

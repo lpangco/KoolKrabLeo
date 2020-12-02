@@ -1,0 +1,8 @@
+prefix=/home/user/hector_quadrotor_tutorials/install
+
+Name: hector_gazebo_plugins
+Description: Description of hector_gazebo_plugins
+Version: 0.5.1
+Cflags: -I/home/user/hector_quadrotor_tutorials/install/include
+Libs: -L/home/user/hector_quadrotor_tutorials/install/lib 
+Requires: roscpp std_msgs geometry_msgs nav_msgs tf message_runtime

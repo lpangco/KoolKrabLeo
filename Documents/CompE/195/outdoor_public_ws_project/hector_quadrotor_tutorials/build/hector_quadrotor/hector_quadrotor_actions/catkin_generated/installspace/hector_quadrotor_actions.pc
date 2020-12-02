@@ -1,0 +1,8 @@
+prefix=/home/user/hector_quadrotor_tutorials/install
+
+Name: hector_quadrotor_actions
+Description: Description of hector_quadrotor_actions
+Version: 0.0.0
+Cflags: -I/home/user/hector_quadrotor_tutorials/install/include
+Libs: -L/home/user/hector_quadrotor_tutorials/install/lib 
+Requires: roscpp

@@ -1,0 +1,8 @@
+prefix=/home/user/hector_quadrotor_tutorials/install
+
+Name: hector_xacro_tools
+Description: Description of hector_xacro_tools
+Version: 0.5.0
+Cflags: 
+Libs: -L/home/user/hector_quadrotor_tutorials/install/lib 
+Requires: 

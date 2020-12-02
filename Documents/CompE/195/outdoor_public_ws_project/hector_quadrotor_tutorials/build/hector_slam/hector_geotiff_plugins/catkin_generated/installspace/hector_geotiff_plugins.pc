@@ -1,0 +1,8 @@
+prefix=/home/user/hector_quadrotor_tutorials/install
+
+Name: hector_geotiff_plugins
+Description: Description of hector_geotiff_plugins
+Version: 0.3.5
+Cflags: 
+Libs: -L/home/user/hector_quadrotor_tutorials/install/lib 
+Requires: 

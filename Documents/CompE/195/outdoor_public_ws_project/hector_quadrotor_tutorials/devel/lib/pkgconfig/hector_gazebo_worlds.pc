@@ -1,0 +1,8 @@
+prefix=/home/user/hector_quadrotor_tutorials/devel
+
+Name: hector_gazebo_worlds
+Description: Description of hector_gazebo_worlds
+Version: 0.5.1
+Cflags: 
+Libs: -L/home/user/hector_quadrotor_tutorials/devel/lib 
+Requires: 
